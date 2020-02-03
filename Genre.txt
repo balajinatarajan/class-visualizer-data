@@ -2,3 +2,9 @@ class Genre{
     +String: name
     +String: id
 }
+
+class Category
+class Channel
+
+Category <|-- Genre : Child of
+Genre <|-- Channel : Child of

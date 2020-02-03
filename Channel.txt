@@ -2,3 +2,5 @@ class Channel{
     +String: name
     +String: id
 }
+class Genre
+class Category

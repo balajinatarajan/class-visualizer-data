@@ -1,5 +1,23 @@
-class Page
+class SweepsPage{
+    <string> sweeps_id
+    <string> sweeps_name
+    <date> sweeps_start_date 
+    <date> sweeps_end_date 
+    <text> sweeps_short_description
+    <string> sweeps_location
+    <text> sweeps_long_description
+    <text> sweeps_closed_headline
+    <text> sweeps_closed_description
+    <Channel> sweeps_featured_channels
+    <Event> sweeps_event
+    <text> sweeps_form
+
+}
 class Channel
+class Genre
+class Category
 class Event
 
-Event --> Channel
+Event --> Channel : event_channel
+SweepsPage --> Event : sweeps_event
+SweepsPage --> Channel : sweeps_featured_channels

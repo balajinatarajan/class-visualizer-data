@@ -1,4 +1,6 @@
-class Event
-Event : +int id
-Event : +String name
-Event: +isActive()
+class Event{
+    <string> event_name
+    <text> event_headline
+    <text> event_description
+    <string> event_location
+}

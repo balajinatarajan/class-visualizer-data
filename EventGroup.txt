@@ -1,0 +1,4 @@
+class EventGroup{
+    +String: name
+    +String: id
+}

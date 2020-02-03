@@ -1,0 +1,4 @@
+class Channel{
+    +String: name
+    +String: id
+}

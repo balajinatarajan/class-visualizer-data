@@ -1,0 +1,9 @@
+- Pages:
+    - SweepsPage
+- Core Components:
+    - Category
+    - Genre
+    - Channel
+    - Event
+- Web Components:
+    - EventGroup

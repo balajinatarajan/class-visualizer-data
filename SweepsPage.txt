@@ -1,0 +1,5 @@
+class Page
+class Channel
+class Event
+
+Event --> Channel

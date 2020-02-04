@@ -11,7 +11,7 @@ class SweepsPage{
     <Channel> sweeps_featured_channels
     <Event> sweeps_event
     <text> sweeps_form
-
+    <string> sweeps_bypass
 }
 class Channel
 class Genre
